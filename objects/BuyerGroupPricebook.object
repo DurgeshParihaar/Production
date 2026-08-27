@@ -114,6 +114,20 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>BuyerGroupId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+    </fields>
+    <fields>
+        <fullName>Pricebook2Id</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>BuyerGroup</customTabListAdditionalFields>
         <customTabListAdditionalFields>Pricebook2</customTabListAdditionalFields>

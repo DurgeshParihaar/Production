@@ -128,5 +128,15 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>PromotionSegmentId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>SalesStoreId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

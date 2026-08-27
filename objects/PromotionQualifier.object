@@ -128,5 +128,53 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>ApproachingDiscountThreshold</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>MinimumAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>MinimumQuantity</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PromotionId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>PromotionTierId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QualifierId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QualifierOperator</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>QualifierProductCategoryName</fullName>
+    </fields>
+    <fields>
+        <fullName>QualifierProductName</fullName>
+    </fields>
+    <fields>
+        <fullName>QualifierProductSku</fullName>
+    </fields>
+    <fields>
+        <fullName>QualifierType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

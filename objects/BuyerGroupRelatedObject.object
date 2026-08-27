@@ -86,6 +86,19 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>BuyerGroupId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ObjectType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ObjectValues</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

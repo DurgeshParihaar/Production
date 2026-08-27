@@ -114,5 +114,28 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AssociatedOrderSummaryId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssociatedOrderSummaryStatus</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>AssociatedRelationshipType</fullName>
+    </fields>
+    <fields>
+        <fullName>MainAttachedToId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MainOrderSummaryId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>RootOrderSummaryId</fullName>
+        <type>Lookup</type>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

@@ -128,5 +128,66 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AdjustmentAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AdjustmentPercent</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AdjustmentType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsMinItemCountRequired</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PromotionId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>PromotionTierId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RestrictionQuantity</fullName>
+        <inlineHelpText>This field is mandatory if the Adjustment Type is Total Fixed Price. If the Adjustment Type is Bonus Product, then this field is limited to 1. For any other Adjustment Type, enter how many products can receive this discount or leave blank for an unlimited quantity.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RestrictionType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TargetId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TargetOperator</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TargetProductCategoryName</fullName>
+    </fields>
+    <fields>
+        <fullName>TargetProductName</fullName>
+    </fields>
+    <fields>
+        <fullName>TargetProductSku</fullName>
+    </fields>
+    <fields>
+        <fullName>TargetType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

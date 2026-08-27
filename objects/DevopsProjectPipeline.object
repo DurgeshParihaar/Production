@@ -128,6 +128,16 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>DevopsPipelineId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DevopsProjectId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>MasterDetail</type>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>DevopsProject</customTabListAdditionalFields>
         <customTabListAdditionalFields>DevopsPipeline</customTabListAdditionalFields>

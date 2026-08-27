@@ -114,5 +114,12 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>GeoCountryId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RoundingStrategyType</fullName>
+    </fields>
     <sharingModel>Private</sharingModel>
 </CustomObject>

@@ -114,5 +114,18 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>GeoCountryId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>IsoCode</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

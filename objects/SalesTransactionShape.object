@@ -44,5 +44,20 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>TotalAdjustmentAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentDistAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalListAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalProductAmount</fullName>
+    </fields>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

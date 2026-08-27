@@ -114,5 +114,21 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>InsightName</fullName>
+    </fields>
+    <fields>
+        <fullName>LowerBoundRange</fullName>
+    </fields>
+    <fields>
+        <fullName>Operator</fullName>
+    </fields>
+    <fields>
+        <fullName>SalesStoreId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>UpperBoundRange</fullName>
+    </fields>
     <sharingModel>Private</sharingModel>
 </CustomObject>

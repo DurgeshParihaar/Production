@@ -114,5 +114,23 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>GeoCountryId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>GeoStateId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+    </fields>
+    <fields>
+        <fullName>Rate</fullName>
+    </fields>
+    <fields>
+        <fullName>TaxCode</fullName>
+        <inlineHelpText>Tax Code maps products to tax rates. Use the same Tax Code for multiple Tax Rates to apply those rates to the same products in a Tax Treatment.</inlineHelpText>
+    </fields>
     <sharingModel>Private</sharingModel>
 </CustomObject>

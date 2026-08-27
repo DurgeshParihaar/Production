@@ -86,6 +86,69 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AuthorizationAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>AuthorizationReversalAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>AvailableToCaptureAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>AvailableToRefundAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>BalanceAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>CapturedAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>FullName</fullName>
+    </fields>
+    <fields>
+        <fullName>LastPaymentGatewayLogId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>LastPaymentGatewayMessage</fullName>
+    </fields>
+    <fields>
+        <fullName>Method</fullName>
+    </fields>
+    <fields>
+        <fullName>OrderSummaryId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>PaymentCreditedAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>PaymentMethodId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PendingAuthorizationAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>PendingCaptureAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>PendingRefundAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>PendingReverseAuthAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>RefundedAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>ReservedBalanceTotalAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>FullName</customTabListAdditionalFields>
         <customTabListAdditionalFields>OrderSummary</customTabListAdditionalFields>

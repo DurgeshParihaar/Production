@@ -128,6 +128,41 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>CouponCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EndDateTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PromotionId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RedemptionLimitAllBuyers</fullName>
+        <inlineHelpText>Number of times this coupon can be used in total.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RedemptionLimitPerBuyer</fullName>
+        <inlineHelpText>Number of times this coupon can be used per customer.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>StartDateTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>CouponCode</customTabListAdditionalFields>
         <customTabListAdditionalFields>Description</customTabListAdditionalFields>

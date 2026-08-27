@@ -86,5 +86,47 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AdjustmentBasisReferenceId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AdjustmentCauseId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Amount</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>OrderAdjustmentGroupSummaryId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OrderItemSummaryId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>OrderSummaryId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OriginalOrderItemAdjustmentLineItemId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalTaxAmount</fullName>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

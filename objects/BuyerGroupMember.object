@@ -114,5 +114,13 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>BuyerGroupId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BuyerId</fullName>
+        <type>Lookup</type>
+    </fields>
     <sharingModel>Private</sharingModel>
 </CustomObject>

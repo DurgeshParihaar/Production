@@ -114,5 +114,14 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>IsoCode</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
     <sharingModel>Private</sharingModel>
 </CustomObject>

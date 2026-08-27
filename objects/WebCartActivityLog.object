@@ -72,5 +72,34 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>CartItemId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>InitiatedById</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OperationSummary</fullName>
+    </fields>
+    <fields>
+        <fullName>OperationType</fullName>
+    </fields>
+    <fields>
+        <fullName>ProductId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SourceCartId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+    </fields>
+    <fields>
+        <fullName>WebCartId</fullName>
+        <type>MasterDetail</type>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

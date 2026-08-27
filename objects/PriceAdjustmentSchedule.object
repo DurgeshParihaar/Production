@@ -100,6 +100,26 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AdjustmentMethod</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ScheduleType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
     <searchLayouts>
         <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>AdjustmentMethod</lookupDialogsAdditionalFields>

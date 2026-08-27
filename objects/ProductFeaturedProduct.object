@@ -114,5 +114,20 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>FeatrProdtRelaType</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>FeaturedProductId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Sequence</fullName>
+    </fields>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

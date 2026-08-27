@@ -72,5 +72,29 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>BackgroundOperationId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CartId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>IsDismissed</fullName>
+    </fields>
+    <fields>
+        <fullName>Level</fullName>
+    </fields>
+    <fields>
+        <fullName>Message</fullName>
+    </fields>
+    <fields>
+        <fullName>RelatedEntityId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

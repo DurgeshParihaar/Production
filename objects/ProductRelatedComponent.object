@@ -114,5 +114,44 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>ChildProductId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ChildProductRole</fullName>
+    </fields>
+    <fields>
+        <fullName>DoesBundlePriceIncludeChild</fullName>
+    </fields>
+    <fields>
+        <fullName>IsComponentRequired</fullName>
+    </fields>
+    <fields>
+        <fullName>IsDefaultComponent</fullName>
+    </fields>
+    <fields>
+        <fullName>IsQuantityEditable</fullName>
+    </fields>
+    <fields>
+        <fullName>ParentProductId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentProductRole</fullName>
+    </fields>
+    <fields>
+        <fullName>ProductRelationshipTypeId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Quantity</fullName>
+    </fields>
+    <fields>
+        <fullName>QuantityScaleMethod</fullName>
+    </fields>
+    <fields>
+        <fullName>Sequence</fullName>
+    </fields>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

@@ -128,5 +128,30 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>ChangeOrderItemId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ChangeType</fullName>
+    </fields>
+    <fields>
+        <fullName>IsPreFulfillment</fullName>
+    </fields>
+    <fields>
+        <fullName>OrderItemSummaryId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>OrderSummaryId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Reason</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ReasonText</fullName>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

@@ -72,5 +72,55 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Activity</fullName>
+    </fields>
+    <fields>
+        <fullName>ActivityDate</fullName>
+    </fields>
+    <fields>
+        <fullName>ActivityType</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>DevopsRequestInfoId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentActivityId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PerformedById</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PipelineId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PipelineStageId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProjectId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RequestInfoErrorDetails</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+    </fields>
+    <fields>
+        <fullName>TestSuiteGroupExecId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WorkItemId</fullName>
+        <type>Lookup</type>
+    </fields>
     <sharingModel>Private</sharingModel>
 </CustomObject>

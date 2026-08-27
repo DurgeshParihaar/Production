@@ -128,5 +128,12 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>DuplicateRuleId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RecordCount</fullName>
+    </fields>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

@@ -86,6 +86,12 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>Description</customTabListAdditionalFields>
         <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>

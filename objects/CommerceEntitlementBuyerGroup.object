@@ -114,5 +114,13 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>BuyerGroupId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PolicyId</fullName>
+        <type>MasterDetail</type>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

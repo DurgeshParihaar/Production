@@ -128,5 +128,33 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>ApplicationName</fullName>
+    </fields>
+    <fields>
+        <fullName>Attribute1</fullName>
+    </fields>
+    <fields>
+        <fullName>DerivedFolderLocation</fullName>
+    </fields>
+    <fields>
+        <fullName>ExpirationPolicyType</fullName>
+    </fields>
+    <fields>
+        <fullName>FolderId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SpaceName</fullName>
+    </fields>
+    <fields>
+        <fullName>StorageLocation</fullName>
+    </fields>
+    <fields>
+        <fullName>StorageReference</fullName>
+    </fields>
+    <fields>
+        <fullName>StorageTierType</fullName>
+    </fields>
     <sharingModel>Private</sharingModel>
 </CustomObject>

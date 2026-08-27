@@ -114,5 +114,31 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AuthorizationAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>CapturedAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>Method</fullName>
+    </fields>
+    <fields>
+        <fullName>OrderPaymentSummaryId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>OrderSummaryId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>RefundedAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>ReservedBalanceAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

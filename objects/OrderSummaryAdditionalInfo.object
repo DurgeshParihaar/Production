@@ -128,5 +128,34 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>BasketExternalReference</fullName>
+    </fields>
+    <fields>
+        <fullName>ChannelType</fullName>
+    </fields>
+    <fields>
+        <fullName>InventoryReservationExtRef</fullName>
+    </fields>
+    <fields>
+        <fullName>InventoryReservationIdentifier</fullName>
+    </fields>
+    <fields>
+        <fullName>InventoryReservationMessage</fullName>
+    </fields>
+    <fields>
+        <fullName>InventoryReservationState</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>OrderId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OrderSummaryId</fullName>
+        <type>Lookup</type>
+    </fields>
     <sharingModel>Private</sharingModel>
 </CustomObject>

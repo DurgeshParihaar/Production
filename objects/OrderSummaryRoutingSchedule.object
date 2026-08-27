@@ -128,5 +128,27 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>OrderDeliveryGroupSummaryId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OrderSummaryId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Reason</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ScheduleStatus</fullName>
+    </fields>
+    <fields>
+        <fullName>ScheduledDatetime</fullName>
+    </fields>
     <sharingModel>Private</sharingModel>
 </CustomObject>

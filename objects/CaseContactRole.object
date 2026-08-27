@@ -57,4 +57,8 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <fields>
+        <fullName>Role</fullName>
+        <type>Picklist</type>
+    </fields>
 </CustomObject>

@@ -100,6 +100,15 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>AssociatedProductRoleCat</fullName>
+    </fields>
+    <fields>
+        <fullName>MainProductRoleCat</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>MainProductRoleCat</customTabListAdditionalFields>
         <customTabListAdditionalFields>AssociatedProductRoleCat</customTabListAdditionalFields>

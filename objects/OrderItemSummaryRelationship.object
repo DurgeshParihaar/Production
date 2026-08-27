@@ -114,5 +114,44 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AssociatedOrderItemInventory</fullName>
+    </fields>
+    <fields>
+        <fullName>AssociatedOrderItemSumPricing</fullName>
+    </fields>
+    <fields>
+        <fullName>AssociatedOrderItemSummaryId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssociatedOrderItemSummaryRole</fullName>
+    </fields>
+    <fields>
+        <fullName>AssociatedQuanScaleMethod</fullName>
+    </fields>
+    <fields>
+        <fullName>MainOrderItemSummaryId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>MainOrderItemSummaryRole</fullName>
+    </fields>
+    <fields>
+        <fullName>MainOrderSummaryId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OrderItemRelationshipId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductRelatedComponentId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductRelationshipTypeId</fullName>
+        <type>Lookup</type>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

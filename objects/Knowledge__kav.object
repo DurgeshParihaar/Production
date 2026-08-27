@@ -19,13 +19,6 @@
         </articleTypeTemplates>
     </articleTypeChannelDisplay>
     <compactLayoutAssignment>Knowledge_Easy_Compact_Layout</compactLayoutAssignment>
-    <deploymentStatus>Deployed</deploymentStatus>
-    <enableHistory>false</enableHistory>
-    <externalSharingModel>Private</externalSharingModel>
-    <label>Knowledge</label>
-    <pluralLabel>Knowledge</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
     <compactLayouts>
         <fullName>Knowledge_Easy_Compact_Layout</fullName>
         <fields>ArticleNumber</fields>
@@ -34,6 +27,9 @@
         <fields>LastModifiedDate</fields>
         <label>Knowledge Easy Compact Layout</label>
     </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableHistory>false</enableHistory>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>ArticleBody__c</fullName>
         <label>Article Body</label>
@@ -41,4 +37,8 @@
         <type>Html</type>
         <visibleLines>25</visibleLines>
     </fields>
+    <label>Knowledge</label>
+    <pluralLabel>Knowledge</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
